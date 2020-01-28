@@ -6,8 +6,8 @@
 ### Author: Obada/Naseem/Ibrahim
 
 ### Links and Resources
-* [submission PR](https://github.com/401-advanced-javascript-ibrahim/lab-07-api-server/pull/1)
-* [ci/cd](https://github.com/401-advanced-javascript-ibrahim/lab-07-api-server/actions) (GitHub Actions)
+* [submission PR](https://github.com/naseem-401-advanced-javascript/lab-07/pull/1)
+* [ci/cd](https://github.com/naseem-401-advanced-javascript/lab-07/actions) (GitHub Actions)
 
 ### Setup
 
