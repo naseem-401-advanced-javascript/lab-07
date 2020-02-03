@@ -1,5 +1,6 @@
-'use strict'
+/* eslint-disable no-undef */
+'use strict';
 
-const server = require('./lib/server.js')
+const server = require('./lib/server.js');
 
-server.start()
+server.start();
