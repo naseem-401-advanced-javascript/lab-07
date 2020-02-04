@@ -1,3 +1,4 @@
+/* eslint-disable comma-dangle */
 /* eslint-disable no-undef */
 'use strict';
 const { server, } = require('../../lib/server.js');
@@ -37,10 +38,10 @@ describe('Web Server', () => {
     it('should be aple to POST', () => {
       return mockRequest
         .post('/api/v1/categories')
-        .send({ name: '11', description: 'engineer' })
+        .send({ name: 'nasa', description: 'engineer' })
         .then(results => {
           expect(results.status).toBe(201 || 200);
-          expect(results.body.name).toBe('11');
+          expect(results.body.name).toBe('nasa');
         }).catch(console.error);
 
     });
@@ -48,10 +49,10 @@ describe('Web Server', () => {
     it('should be able to PUT', () => {
       return mockRequest
         .put('/api/v1/categories/1')
-        .send({ name: 'ibrahim-updated-2', description: 'engineer' })
+        .send({ name: 'naseem', description: 'engineer' })
         .then(results => {
           expect(results.status).toBe(200 || 201);
-          expect(results.body.name).toBe('ibrahim-updated-2');
+          expect(results.body.name).toBe('naseem');
         }).catch(console.error);
 
     });
