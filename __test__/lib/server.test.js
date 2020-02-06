@@ -1,3 +1,4 @@
+/* eslint-disable strict */
 /* eslint-disable comma-dangle */
 /* eslint-disable no-undef */
 'use strict';
